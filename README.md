@@ -15,7 +15,7 @@
 - 🔭 Lagi fokus di [learn-JS](https://github.com/armanganteng3057-lgtm/learn-JS) repo
 - 🌱 Baru belajar JavaScript, Node.js, Git, VS Code  
 - 💬 Tanya gue tentang ngoding dari 0
-- 📫 DM Instagram: @username_lu
+- 📫 DM Instagram: @armnnnn__
 
 ### 🛠️ Tech Stack:
 <p align="left">
