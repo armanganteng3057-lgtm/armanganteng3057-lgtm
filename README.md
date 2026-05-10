@@ -1,16 +1,30 @@
-## Hi there 👋
+<h1 align="center">Hi, aku Arman 👋</h1>
+<h3 align="center">19 y.o Self-Taught Dev dari Palopo 🇮🇩</h3>
 
-<!--
-**armanganteng3057-lgtm/armanganteng3057-lgtm** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<div align="center">
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="350">
+</div>
 
-Here are some ideas to get you started:
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=armanganteng3057-lgtm&label=Profile%20views&color=0e75b6&style=flat" />
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+- 🔭 Lagi fokus di **learn-JS repo**
+- 🌱 Baru belajar **JavaScript, Node.js, Git, VS Code** 
+- 💬 Tanya gue tentang **ngoding dari 0**
+- ⚡ Fun fact: **Seminggu belajar udah 5x push ke GitHub**
+
+### 🛠️ Tech Stack
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=js,nodejs,git,github,vscode" />
+</p>
+
+### 📊 GitHub Stats
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=armanganteng3057-lgtm&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+</div>
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=armanganteng3057-lgtm&theme=tokyonight&hide_border=true" />
+</div>
