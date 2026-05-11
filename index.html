@@ -1,23 +1,114 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-  <title>Arman - Portfolio</title>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arman - Portfolio</title>
   <style>
-    body { background:#000; color:#fff; font-family:Arial; text-align:center; padding:40px 20px; margin:0; }
-    h1 { font-size:36px; margin:0; }
-    .motto { color:#aaa; margin:10px 0 40px 0; line-height:1.5; }
-    .btn { display:block; max-width:300px; margin:12px auto; padding:14px; border:1px solid #fff; color:#fff; text-decoration:none; border-radius:8px; }
-    .btn:hover { background:#fff; color:#000; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #000;
+      color: #fff;
+      font-family: 'Arial', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      overflow: hidden;
+    }
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background-image: 
+        linear-gradient(90deg, #222 1px, transparent 1px),
+        linear-gradient(#222 1px, transparent 1px);
+      background-size: 25px 25px;
+      animation: pixelMove 15s linear infinite;
+      opacity: 0.5;
+      z-index: -1;
+    }
+    @keyframes pixelMove {
+      0% { background-position: 0 0; }
+      100% { background-position: 50px 50px; }
+    }
+    h1 {
+      font-size: 3.5rem;
+      letter-spacing: 8px;
+      margin-bottom: 15px;
+      animation: fadeInDown 1s ease;
+    }
+    .tagline {
+      font-size: 0.85rem;
+      opacity: 0.6;
+      margin-bottom: 50px;
+      text-align: center;
+      line-height: 1.8;
+      letter-spacing: 1px;
+      animation: fadeInDown 1s ease 0.3s backwards;
+    }
+    .btn-container {
+      backdrop-filter: blur(12px);
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 20px;
+      padding: 25px;
+      width: 100%;
+      max-width: 340px;
+      animation: fadeInUp 1s ease 0.6s backwards;
+    }
+    .btn {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 18px 22px;
+      margin: 14px 0;
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.18);
+      border-radius: 14px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 700;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: rgba(255,255,255,0.18);
+      transform: translateY(-3px);
+      box-shadow: 0 10px 30px rgba(255,255,255,0.15);
+    }
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
   </style>
 </head>
 <body>
-  <h1>ARMAN</h1>
-  <p class="motto">WELCOME TO NEW ERA,<br>DIMANA PENCAPAIAN LEBIH MENGGODA DARIPADA PERCINTAAN.</p>
-  
-  <a class="btn" href="https://instagram.com/armnnnnn_">INSTAGRAM</a>
-  <a class="btn" href="https://tiktok.com/@username">TIKTOK</a>
-  <a class="btn" href="https://youtube.com/@username">YOUTUBE</a>
-  <a class="btn" href="https://facebook.com/username">FACEBOOK</a>
+  <h1>Arman</h1>
+  <p class="tagline">
+    WELCOME TO NEW ERA,<br>
+    DIMANA PENCAPAIAN LEBIH MENGGODA<br>
+    DARI PADA PERCINTAAN.
+  </p>
+  <div class="btn-container">
+    <a class="btn" href="https://instagram.com/armnnnnn_">
+      <span>INSTAGRAM</span> <span>📷</span>
+    </a>
+    <a class="btn" href="https://tiktok.com/@username">
+      <span>TIKTOK</span> <span>🎵</span>
+    </a>
+    <a class="btn" href="https://youtube.com/@username">
+      <span>YOUTUBE</span> <span>▶️</span>
+    </a>
+    <a class="btn" href="https://facebook.com/username">
+      <span>FACEBOOK</span> <span>📘</span>
+    </a>
+  </div>
 </body>
 </html>
